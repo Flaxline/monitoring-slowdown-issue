@@ -10,5 +10,16 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "angularapp": {
+      "tags": []
+    },
+    "angularapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angularapp"]
+    },
+    "util": {
+      "tags": []
+    }
+  }
 }

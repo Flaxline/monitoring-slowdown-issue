@@ -1,3 +1,14 @@
+# For elastic issue:
+
+For running the test with a configuration that showed slowdown after upgrade:
+
+`npm run e2e:timeout`
+
+For comparation to a test with longer timeouts:
+
+`npm run e2e:longer`
+
+
 # Sample
 
 This project was generated using [Nx](https://nx.dev).
